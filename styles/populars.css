@@ -1,0 +1,60 @@
+.populars {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-grow: 1;
+
+  min-width: 300px;
+  padding: 40px 36px;
+  border-radius: 20px;
+
+  background-color: #f2f2f2;
+}
+
+.populars-header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.populars h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.populars-icn {
+  font-size: 22px;
+}
+
+.populars_cards-list {
+  display: flex;
+  gap: 20px;
+
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.card-popular {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  flex-grow: 1;
+
+  min-height: 145px;
+  padding: 6px;
+
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-popular img {
+  width: 126px;
+  max-height: 150px;
+  overflow: hidden;
+
+  border-radius: 17px 0 0 17px;
+  object-fit: cover;
+}
+

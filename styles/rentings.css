@@ -5,7 +5,7 @@
   flex-grow: 2;
   max-width: 820px;
 
-  padding: 40px 36px 80px 36px;
+  padding: 40px 36px 60px 36px;
   border-radius: 20px;
 
   background-color: #f2f2f2;
@@ -18,11 +18,11 @@
 }
 
 .rentings h3 {
-  position: absolute;
-  bottom: 40px;
-
+  position: relative;
   font-size: 18px;
   font-weight: 600;
+
+  bottom: -15px;
 }
 
 .rentals_cards-list {
@@ -32,7 +32,7 @@
   flex-direction: row;
   flex-wrap: wrap;
 
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .card-renting {
@@ -79,10 +79,5 @@
   .rentings {
     padding: 0px 50px;
     background-color: transparent;
-  }
-
-  .rentings h3 {
-    position: absolute;
-    bottom: -12px;
   }
 }

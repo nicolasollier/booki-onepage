@@ -2,7 +2,7 @@
   display: flex;
   position: sticky;
   top: 16px;
-  
+
   flex-direction: column;
   flex-wrap: wrap;
   flex-grow: 1;
@@ -65,5 +65,6 @@
 @media screen and (max-width: 992px) {
   .populars{
     position: relative;
+    margin-bottom: 24px;
   }
 }

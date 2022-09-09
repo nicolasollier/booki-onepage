@@ -38,8 +38,14 @@
 .card-renting {
   display: inline-table;
   flex-direction: column;
+
   overflow: hidden;
+  transition: 0.15s;
   flex: 1 1 0px;
+
+  text-decoration: none;
+  color: #202020;
+  cursor: pointer;
 
   min-width: 248px;
   height: 200px;
@@ -48,6 +54,10 @@
   border-radius: 20px;
   background-color: #fff;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+.card-renting:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
 }
 
 .card-renting img {

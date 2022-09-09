@@ -23,11 +23,23 @@ img {
 .activity-card {
   display: flex;
   overflow: hidden;
+
+
   flex-direction: column;
   max-width: 300px;
+  transition: 0.15s;
+
+  text-decoration: none;
+  color: #202020;
+  cursor: pointer;
 
   border-radius: 15px;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+}
+
+.activity-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
 }
 
 .activity-card span {

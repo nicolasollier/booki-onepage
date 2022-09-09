@@ -74,4 +74,32 @@ img {
   .activities {
     padding: 0px 50px;
   }
+
+  .activity-wrapper {
+    width: 100%;
+  }
+
+  .activity-card {
+    max-width: none;
+    width: 100%;
+  }
+
+  .activity-card img {
+    width: 100%;
+  }
+
+  .activity-card span {
+    min-height: 60px;
+  }
+
+  .activity-card.lg, .activity-card.md, .activity-card.sm {
+    height: 280px;
+  }
+  .activity-card.lg img, .activity-card.md img, .activity-card.sm img {
+    height: 220px;
+  }
+
+  .activity-card.sm {
+    margin-top: 40px;
+  }
 }

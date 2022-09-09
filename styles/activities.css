@@ -69,6 +69,10 @@ img {
 .activity-card.sm img {
   height: 110px;
 }
+.activity-card.sm-alt {
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
 
 @media screen and (max-width: 992px) {
   .activities {

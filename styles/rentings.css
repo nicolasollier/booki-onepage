@@ -78,6 +78,7 @@
 @media screen and (max-width: 992px) {
   .rentings {
     padding: 0px 50px;
+    background-color: transparent;
   }
 
   .rentings h3 {

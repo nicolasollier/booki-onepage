@@ -24,6 +24,7 @@
 .nav-items_link {
   display: flex;
   justify-content: center;
+  border-top: 2px solid transparent;
 
   width: 50%;
   height: 100%;

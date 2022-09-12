@@ -91,3 +91,17 @@
     background-color: transparent;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .rentings {
+    padding: 0px 20px;
+  }
+
+  .rentals_cards-list {
+    gap: 10px;
+  }
+
+  .card-renting {
+    min-width: 90%;
+  }
+}

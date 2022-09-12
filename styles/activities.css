@@ -118,4 +118,29 @@ img {
   .activity-card.sm {
     margin-top: 40px;
   }
+
+  #sm-card-ndlg {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .activities {
+    padding: 0px 20px;
+  }
+
+  .activity-card span {
+    min-height: 50px;
+  }
+
+  .activity-card.lg, .activity-card.md, .activity-card.sm {
+    height: 220px;
+  }
+  .activity-card.lg img, .activity-card.md img, .activity-card.sm img {
+    height: 160px;
+  }
+
+  .activity-card.sm-alt {
+    margin-top: 20px;
+  }
 }

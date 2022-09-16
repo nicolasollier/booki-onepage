@@ -74,10 +74,6 @@
     background-color: transparent;
   }
 
-  .cards-list {
-    flex-direction: column;
-  }
-
   .card-renting {
     margin: 10px 0;
     min-width: 100%;

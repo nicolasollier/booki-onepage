@@ -1,6 +1,5 @@
 .top-nav {
   display: flex;
-  justify-content: flex-end;
   height: 90px;
 
   align-items: center;
@@ -10,6 +9,10 @@
 .brand {
   display: flex;
   align-self: flex-end;
+}
+
+#logo-brand {
+  width: 100px;
 }
 
 .nav-items {
@@ -61,7 +64,7 @@
     width: 100%;
     height: auto;
     margin-top: 20px;
-    padding-bottom: 0px;
+    padding-bottom: 0;
   }
 
   .nav-items_link {

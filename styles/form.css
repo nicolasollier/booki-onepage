@@ -47,34 +47,31 @@
 
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
-  letter-spacing: .25px;
   font-weight: 600;
 
   border: none;
+  border-radius: 0 15px 15px 0;
   background-color: #0065FC;
   color: #fff;
 }
 .submit-btn:hover {
   background-color: #2077fa;
 }
-
-.desktop {
-  width: 138px;
-  border-radius: 0 15px 15px 0;
-}
-.mobile {
+#submit-btn_icn {
   display: none;
-  position: relative;
-  width: 60px;
-  left: -14px;
-  border-radius: 15px;
 }
 
 @media screen and (max-width: 768px) {
-  .desktop {
+  .submit-btn {
+    position: relative;
+    width: 56px;
+    left: -12px;
+    border-radius: 15px;
+  }
+  .submit-btn span {
     display: none;
   }
-  .mobile {
-    display: flex;
+  #submit-btn_icn {
+    display: block;
   }
 }

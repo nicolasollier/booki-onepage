@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
 
-@import 'reset.css';
-@import 'containers.css';
-@import 'nav.css';
-@import 'header.css';
-@import 'form.css';
-@import 'filters.css';
-@import 'main-section.css';
-@import 'rentings.css';
-@import 'populars.css';
-@import 'activities.css';
-@import 'footer.css';
+@import './reset.css';
+@import './containers.css';
+@import './nav.css';
+@import './header.css';
+@import './form.css';
+@import './filters.css';
+@import './main-section.css';
+@import './rentings.css';
+@import './populars.css';
+@import './activities.css';
+@import './footer.css';
 
 strong { font-weight: bold; }
 

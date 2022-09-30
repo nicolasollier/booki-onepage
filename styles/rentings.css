@@ -76,6 +76,12 @@
     background-color: transparent;
   }
 
+  .rentals_row-wrapper {
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+  }
+
   .card-renting {
     margin: 10px 0;
     min-width: 100%;
@@ -85,7 +91,7 @@
 
 @media screen and (max-width: 992px) {
   .rentings {
-    padding: 0 50px;
+    padding: 0 30px;
     background-color: transparent;
   }
 }

@@ -42,7 +42,7 @@ img {
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
 }
 
-.activity-card span {
+.activity-card figcaption {
   display: flex;
   flex-direction: column;
   justify-content: center;

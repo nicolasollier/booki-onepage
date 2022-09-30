@@ -7,9 +7,9 @@
   flex-wrap: wrap;
   flex-grow: 1;
 
-  min-width: 300px;
+  min-width: 238px;
   height: fit-content;
-  padding: 40px 36px;
+  padding: 40px 25px;
   border-radius: 20px;
 
   background-color: #f2f2f2;

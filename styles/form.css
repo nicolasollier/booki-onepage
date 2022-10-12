@@ -62,6 +62,12 @@
   display: none;
 }
 
+.fa-magnifying-glass:before {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  content: "Rechercher";
+}
+
 @media screen and (max-width: 768px) {
   .submit-btn {
     position: relative;
@@ -75,4 +81,10 @@
   #submit-btn_icn {
     display: block;
   }
+
+  .fa-magnifying-glass:before {
+    font-family: 'Font Awesome 6 Free', Arial, sans-serif;
+    content: "\f002";
+  }
+
 }

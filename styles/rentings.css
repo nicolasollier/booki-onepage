@@ -17,11 +17,12 @@
   margin-bottom: 30px;
 }
 
-.rentings h3 {
+.rentings a {
   position: relative;
+  text-decoration: none;
+  color: #0f100f;
   font-size: 16px;
   font-weight: 600;
-
   bottom: -3px;
 }
 
